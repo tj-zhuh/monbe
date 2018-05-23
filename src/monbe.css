@@ -1,0 +1,42 @@
+﻿
+.monbe {
+    width: 7.05rem;
+    height: 1.41rem;
+    position: relative;
+    background-image: url(monbe-bg.png);
+    background-size: 100% 100%;   
+}
+
+.monbe-bar {
+    width: 5.98rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.325rem;
+}
+
+.monbe-begin,
+.monbe-end {
+    width: 0.47rem;
+    height: 0.59rem;
+    background-image: url(monbe-point.png);
+    background-size: 100% 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    margin-left: 0;
+    z-index: 3;
+}
+
+.monbe-end {
+    z-index: 4;
+}
+
+.monbe-step {
+    background-image: url(monbe-bar.png);
+    background-repeat: repeat-x;
+    height: 0.16rem;
+    position: absolute;
+    margin-left: 0.235rem;
+    margin-top: 0.15rem;
+}
